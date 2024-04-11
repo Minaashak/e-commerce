@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+
+
+:root{
+  --main-font: "Merriweather", serif;
+  --btn-Color:#08ac0a;
+  --main-Font-Color:#707071;
+  --main-bg-Color:#f0f3f2;
+  --prodact-title-color:#17ad13;
+  --star-color:#ffc906;
+  --light-color:#f0f3f2;
+}
+
+body{
+  font-family: var(--main-font);
+}
+
+.btn-color{
+  background-color: var(--btn-Color);
+}
+
+.bg-main-color{
+  background-color: var(--main-bg-Color);
+}
+
+.font-color{
+  color: var(--main-Font-Color);
+}
+.title-prod-col{
+  color: var(--prodact-title-color);
+}
+i{
+  cursor: pointer;
+}
+
+.btn-desgin{
+  border: none;
+  border-radius: 10px;
+}
+.btn-desgin:hover{
+  background-color: var(--btn-Color) !important;
+}
+.star{
+  color: var(--star-color);
+}
+
+.prod:hover{
+  border: 2px solid var(--btn-Color);
+  border-radius: 10px;
+  transform: translate();
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.load{
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.min-height{
+  min-height: 80dvh ;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 25px;
+}
+.disabled{
+  background-color: #08ac0b82;
+}
+.bg-main-color{
+  background-color: var(--light-color);
+}
+button{
+  border-color: #08ac0a;
+}
+.style{
+  top: 0;
+  color: white;
+  background-color: var(--btn-Color);
+  padding: 2px;
+  border-radius: 6px;
+}
